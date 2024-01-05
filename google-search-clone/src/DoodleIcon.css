@@ -1,0 +1,16 @@
+/* DoodleIcon.css */
+.google-icon-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Adjust the margin based on your design */
+}
+
+.google-icon {
+  width: 450px; /* Adjust the size of the Doodle icon */
+}
+
+.hidden {
+  display: none;
+}

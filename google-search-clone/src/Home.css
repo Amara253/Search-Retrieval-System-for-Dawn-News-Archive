@@ -1,0 +1,182 @@
+/* Home.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: #23384f;
+  color: #fff;
+  display: flex;
+  align-items: center; /* Align header items vertically in the center */
+  height: 80px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 36px;
+  color: #ffffff;
+  margin-top: 25px;
+  font-family: 'Papyrus', sans-serif; /* Use quotes for font family with spaces */
+  margin-left: 20px;
+}
+
+.news-container {
+  margin-top: 50px;
+  margin-left: 2px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.news-item {
+  flex: 1; /* Equal width for news items */
+  margin: 5px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #23384f;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.dawn-doodle-btn {
+  display: block;
+  magin_left:-100px;
+  padding: 15px 30px;
+  background-color: #9d7138;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.dawn-doodle-btn:hover {
+  background-color: #6d8aa9;
+}
+
+#dawn-logo {
+  width: 200px;
+  height: 100px;
+  border-radius: 8px;
+  border: 4px solid #23384f;
+}
+
+#doodle-icon {
+  width: 100%; /* Make the Doodle Icon fill its container */
+  max-width: 200px; /* Set a maximum width for responsiveness */
+  height: auto;
+  border-radius: 40%;
+  margin-top: 50px;
+
+  border: 4px solid #6d8aa9;
+  transition: background-color 0.3s ease;
+}
+
+#doodle-icon:hover {
+  background-color: #c2c5c7;
+}
+
+.more-links {
+  list-style-type: none;
+  padding: 10px;
+  text-align: left;
+  margin-left: 20px; /* Adjusted margin for more space */
+}
+
+.more-links li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.more-links img {
+  width: 90px;
+  height: 70px;
+  border-radius: 10%;
+  margin-right: 10px;
+}
+
+.caption {
+  text-align: left;
+  font-style: normal;
+  font-family: 'Verdana', sans-serif; /* Use quotes for font family with spaces */
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.news-img,
+.n-img {
+  width: 100%;
+  max-width: 950px; /* Set a maximum width for responsiveness */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.6);
+  margin-bottom: 20px; /* Add margin for spacing between images */
+}
+.carousel-section {
+  display: flex;
+  width: 100%; /* Set the width of the carousel section to 70% of the page */
+}
+
+.doodle-section {
+  flex: 1; /* Use remaining space in the carousel section */
+  padding: 0 20px; /* Add padding to the right side */
+}
+
+.doodle-section img {
+  width: 100%; /* Make the Doodle Icon fill its container */
+}
+
+/* Adjust the existing styles for the black carousel */
+.black-carousel {
+  width: 70%; /* Set the width of the carousel to 70% of the page */
+}
+
+/* Adjust the existing styles for news containers and items */
+.news-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-item {
+  flex: 1; /* Equal width for news items */
+  margin: 5px;
+  text-align: center;
+}
+
+/* Add a new class for right-aligned captions */
+.right-caption {
+  text-align: left;
+}
+ Adjust the existing styles for captions
+.caption {
+  text-align: left;
+  font-style: normal;
+  font-family: verdana;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+
+/* Adjust the existing styles for news images *//*
+
+.news-img,
+.n-img {
+  width: 100%; */
+/* Make images fill their containers *//*
+
+  height: auto; */
+/* Maintain aspect ratio *//*
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.6);
+}*/

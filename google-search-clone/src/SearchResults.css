@@ -1,0 +1,26 @@
+/* SearchResults.css */
+
+.search-results-container {
+  margin-bottom: 10px;
+  margin-left:90px;
+  margin-top:-60px;
+  background:#fff;
+
+
+}
+
+.result-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left:90px;
+  margin-right:100px;
+
+
+}
+
+.result-link {
+  text-decoration: none;
+  color: blue;
+}
